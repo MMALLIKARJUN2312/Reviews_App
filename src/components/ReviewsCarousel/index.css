@@ -1,0 +1,91 @@
+/* Write your code here */
+
+* {
+  margin: 0;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-size: cover;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+}
+
+.main-heading {
+  font-family: 'Roboto';
+  font-size: 50px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 25px;
+  margin-top: 55px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.carousel-container {
+  display: flex;
+  align-items: center;
+  width: 85%;
+}
+
+.left-arrow {
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: 14px;
+  margin-right: 14px;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.right-arrow {
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: 14px;
+  margin-right: 14px;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.review-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 500px;
+}
+
+.user-name {
+  font-family: 'Roboto';
+  font-size: 23px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-top: 14px;
+  padding-top: 14px;
+}
+
+.company-name {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 400;
+  color: #171f46;
+  margin-top: 14px;
+  padding-top: 14px;
+}
+
+.description {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 400;
+  color: #171f46;
+  margin-top: 14px;
+  margin-left: 14px;
+  margin-right: 14px;
+  padding-top: 14px;
+  padding-left: 14px;
+  padding-right: 14px;
+}
